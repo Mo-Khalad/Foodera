@@ -7,7 +7,7 @@
     background-color:var(--main_color);
     height:250px;
     position: fixed;
-    z-index: 99999;
+    z-index: 999999999 !important;
     left:5%;
     top:2rem;
 }
@@ -50,6 +50,7 @@
     position: fixed;
     top:1rem;
     right: 2rem;
+    z-index: 9999999;
     color:aliceblue;
     background-color: var(--main_color);
     padding: 10px 10px;
