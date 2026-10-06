@@ -1,0 +1,14 @@
+.stats{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main_color);
+    color: aliceblue;
+    font-size:1.5rem;
+    padding: 20px 35px;
+    margin-top:0.1rem;
+}
+.statsContent p{
+    font-size:0.8rem;
+    text-align: center;
+}

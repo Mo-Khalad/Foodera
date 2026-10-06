@@ -1,0 +1,84 @@
+.parallaxImage{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../images/parallax-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+.parallaxCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(14, 24, 24, 0.336);
+    z-index: 0;
+}
+.parallaxImage p{
+    font-size: 1.7rem;
+    color: rgb(247, 247, 247);
+    z-index: 2;
+    font-weight: 600;
+}
+.parallaxImage button{
+    padding:10px 30px;
+    background-color: var(--main_color);
+    border: 3px solid var(--main_color);
+    color: aliceblue;
+    z-index: 2;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+}
+.parallaxImage button:hover{
+    color: var(--main_color);
+    background-color: aliceblue;
+}
+.contentParallax{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.subscribe{
+    width:45%;
+}
+.subscribe h2{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.subscribe p{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.subscribe input{
+    text-align: center;
+    width:65%;
+    padding: 14px 25px;
+    border: 0;
+    box-shadow: 0 0 5px #222;
+    margin-top:2rem;
+    border-radius: 0.3rem;
+    margin-right: 2rem;
+    min-width:300px ;
+}
+.subscribe button{
+    padding:13px 50px;
+    border: 3px solid var(--main_color);
+    z-index: 2;
+    font-weight: 900;
+    transition: all 0.5s;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+}
+.subscribe button:hover{
+   color: var(--main_color);
+   background-color: rgb(250, 250, 250);
+
+}
+

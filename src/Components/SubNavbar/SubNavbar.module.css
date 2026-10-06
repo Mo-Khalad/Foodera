@@ -1,0 +1,57 @@
+.supNavBtn{
+    padding:12px 24px;  
+    border: 0;
+}
+.supNav{
+    width:90%;
+    background-color:var(--main_color);
+    height:250px;
+    position: fixed;
+    z-index: 99999;
+    left:5%;
+    top:2rem;
+}
+.linksSupNav li{
+    display: block;
+    text-align: center;
+    font-size:15px;
+    width:33%;
+    margin: auto;
+    padding: 2px 2px;
+    color: azure;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 1rem;
+}
+.linksSupNav i{
+    color:var(--main_color);
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding:0.3em 0.5rem;
+    font-size:1.5rem;
+    float:right;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.linksSupNav li:hover{
+   color:rgb(206, 219, 219);
+}
+.supNavBtn{
+    border: 1px solid hsl(0, 0%, 79%);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.supNavBtn:hover{
+    background-color: rgb(224, 224, 224);
+    color: var(--main_color);
+}
+.menu{
+    font-size:2.5rem;
+    position: fixed;
+    top:1rem;
+    right: 2rem;
+    color:aliceblue;
+    background-color: var(--main_color);
+    padding: 10px 10px;
+    cursor: pointer;
+}

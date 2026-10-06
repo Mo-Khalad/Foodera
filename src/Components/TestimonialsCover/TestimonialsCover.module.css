@@ -1,0 +1,31 @@
+
+.testimonialsCover{
+    background-color: aliceblue;
+    width: 90%;
+    height: 350px;
+    border-radius:1rem;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+.testimonialsContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonialsCover img{
+    border-radius:50%;
+    margin-top: 4rem;
+    margin-bottom:0.5rem;
+    display: block;
+}
+.testimonialsCover p{
+    width:100%;
+    padding:0.5rem 5rem;
+    font-size:1.3rem;
+    cursor:initial;
+    font-weight: 200;
+}
+.testimonialsCover h4{
+    margin-top: 0.7rem;
+}

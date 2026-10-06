@@ -1,0 +1,45 @@
+
+
+.DataExploreFoods{
+    display: flex;
+    justify-content: center;
+}
+.DataExploreFoods img{
+    border-radius: 1rem;
+}
+.DataExploreFoods h3{
+    font-weight:800;
+    color: var(--main_color);
+} 
+.DataExploreFoods p{
+    font-weight:300;
+    margin-bottom:1rem;
+}
+.DataExploreFoods h2{
+    color: var(--main_color);
+    font-weight:900;
+    margin-bottom: 1rem;
+}
+del{
+    color: rgb(92, 91, 91);
+    font-size: 1.5rem;
+    font-weight:400;
+}
+.DataExploreFoods button{
+   padding:15px 50px;
+   border:2px solid var(--main_color);
+   font-size: 1rem;
+   border-radius: 0.4rem;
+   margin-bottom: 4rem;
+   transition: all 0.5s;
+} 
+.DataExploreFoods button:hover{
+   background-color:aliceblue;
+   border: 0;
+   border-radius: 0.4rem;
+   font-size: 1rem;
+   color:var(--main_color);
+   border-radius: 0.4rem;
+   margin-bottom: 4rem;
+   border:2px solid var(--main_color);
+} 

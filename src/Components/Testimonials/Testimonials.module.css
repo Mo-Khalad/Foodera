@@ -1,0 +1,19 @@
+.testimonials{
+    background-color: var(--main_color);
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.testimonialsText{
+ width: 100%;
+ color: aliceblue;
+ text-align: center;
+ font-size:2rem;
+ margin-bottom:3rem;
+}
+.images{
+    padding: 1rem;
+}
